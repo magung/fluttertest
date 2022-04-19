@@ -23,7 +23,6 @@ class _MyHomePageState extends State<MyHomePage> {
     }
     var response = await http.get(Uri.parse(url));
     if (response.statusCode == 200) {
-      print('Request sukses with status: ${response.statusCode}.');
       var jsonResponse = json.decode(response.body);
       setState(() {
         dataList = jsonResponse;
@@ -33,14 +32,9 @@ class _MyHomePageState extends State<MyHomePage> {
       setState(() {
         loading = false;
       });
-      print('Request failed with status: ${response.statusCode}.');
     }
-    // return dataList;
   }
 
-  _fetchData() async {
-    return dataList;
-  }
 
   @override
   void initState() {
