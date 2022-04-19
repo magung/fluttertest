@@ -1,6 +1,7 @@
 # fluttertest
 
-A new Flutter project.
+<img width="300" alt="Screen Shot 2022-04-19 at 19 47 26" src="https://user-images.githubusercontent.com/50833200/164007583-bda6c995-ee36-43c6-9999-326e733b584e.png">
+<img width="300" alt="Screen Shot 2022-04-19 at 19 47 32" src="https://user-images.githubusercontent.com/50833200/164007605-f0410163-9aeb-4b8c-b521-fe8937cc6b5d.png">
 
 ## Getting Started
 
